@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+    metadata-complete="true">
+ 
+  <!-- To save as "ebookshop\WEB-INF\web.xml" -->
+   <context-param>
+    <param-name>databaseURL</param-name>
+    <param-value>jdbc:mysql://localhost:8888/ebookshop</param-value>
+  </context-param>
+  <context-param>
+    <param-name>username</param-name>
+    <param-value>myuser</param-value>
+  </context-param>
+  <context-param>
+    <param-name>password</param-name>
+    <param-value>xxxx</param-value>
+  </context-param>
+ 
+  <servlet>
+    <servlet-name>EntryServlet</servlet-name>
+    <servlet-class>mypkg.EntryServlet</servlet-class>
+  </servlet>
+ 
+  <servlet>
+    <servlet-name>EBookShopQuery</servlet-name>
+    <servlet-class>QueryServlet</servlet-class>
+  </servlet>
+ 
+  <servlet>
+    <servlet-name>EBookShopQueryMultiValue</servlet-name>
+    <servlet-class>QueryMultiValueServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>EBookShopQueryPostValue</servlet-name>
+    <servlet-class>QueryPostServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>EShopQuery</servlet-name>
+    <servlet-class>EshopQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EShopOrder</servlet-name>
+    <servlet-class>EshopOrderServlet</servlet-class>
+  </servlet>
+  <!-- Note: All <servlet> elements must be placed
+       in front of <servlet-mapping> elements -->
+ 
+  <servlet-mapping>
+    <servlet-name>EBookShopQuery</servlet-name>
+    <url-pattern>/query</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet-mapping>
+    <servlet-name>EBookShopQueryMultiValue</servlet-name>
+    <url-pattern>/querymv</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>EBookShopQueryPostValue</servlet-name>
+    <url-pattern>/querypost</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EShopQuery</servlet-name>
+    <url-pattern>/eshopquery</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>EShopOrder</servlet-name>
+    <url-pattern>/eshoporder</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>EntryServlet</servlet-name>
+    <url-pattern>/start</url-pattern>
+  </servlet-mapping>
+ 
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
+  <welcome-file-list>
+    <welcome-file>start</welcome-file>
+  </welcome-file-list>
+</web-app>
