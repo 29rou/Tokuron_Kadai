@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/yoshiki/Documents/NetBeansProjects/yaebooks/src/java/mypkg/EntryServlet.java</file>
+            <file>file:/C:/Users/yoshiki/Documents/NetBeansProjects/yaebooks/web/index.html</file>
+            <file>file:/C:/Users/yoshiki/Documents/NetBeansProjects/yaebooks/src/java/mypkg/OrderServlet.java</file>
+            <file>file:/C:/Users/yoshiki/Documents/NetBeansProjects/yaebooks/src/java/mypkg/CartItem.java</file>
+            <file>file:/C:/Users/yoshiki/Documents/NetBeansProjects/yaebooks/src/java/mypkg/QueryServlet.java</file>
+            <file>file:/C:/Users/yoshiki/Documents/NetBeansProjects/yaebooks/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/yoshiki/Documents/NetBeansProjects/yaebooks/web/META-INF/context.xml</file>
+            <file>file:/C:/Users/yoshiki/Documents/NetBeansProjects/yaebooks/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/yoshiki/Documents/NetBeansProjects/yaebooks/src/java/mypkg/Cart.java</file>
+            <file>file:/C:/Users/yoshiki/Documents/NetBeansProjects/yaebooks/src/java/myutil/InputFilter.java</file>
+            <file>file:/C:/Users/yoshiki/Documents/NetBeansProjects/yaebooks/src/java/mypkg/DoSomethingServlet.java</file>
+            <file>file:/C:/Users/yoshiki/Documents/NetBeansProjects/yaebooks/src/java/mypkg/LogoutServlet.java</file>
+            <file>file:/C:/Users/yoshiki/Documents/NetBeansProjects/yaebooks/src/java/mypkg/CartServlet.java</file>
+            <file>file:/C:/Users/yoshiki/Documents/NetBeansProjects/yaebooks/src/java/mypkg/LoginServlet.java</file>
+            <file>file:/C:/Users/yoshiki/Documents/NetBeansProjects/yaebooks/src/java/mypkg/CheckoutServlet.java</file>
+        </group>
+    </open-files>
+</project-private>
